@@ -371,14 +371,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.23, z: -1.57}
+  m_LocalRotation: {x: 0.08001358, y: 0.25288817, z: -0.020991161, w: 0.9639527}
+  m_LocalPosition: {x: 599, y: 5, z: 389}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.49, y: 29.4, z: 0}
 --- !u!1 &212384019907236792
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,6 +390,7 @@ GameObject:
   - component: {fileID: 2312297243423921118}
   - component: {fileID: 3421414049534019539}
   - component: {fileID: 6971927253835654357}
+  - component: {fileID: 6971927253835654358}
   m_Layer: 0
   m_Name: VW_Touran2007_frontlights
   m_TagString: Untagged
@@ -432,6 +433,7 @@ GameObject:
   - component: {fileID: 6167258657945613139}
   - component: {fileID: 1870303206751831429}
   - component: {fileID: 8278857354297969745}
+  - component: {fileID: 8278857354297969746}
   m_Layer: 0
   m_Name: VW_Touran2007_side_right_blinker_glass
   m_TagString: Untagged
@@ -548,7 +550,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2186091915179713463}
-  - component: {fileID: 2186091915179713464}
   - component: {fileID: 2186091915179713465}
   m_Layer: 0
   m_Name: VW_Touran_2007
@@ -620,6 +621,7 @@ GameObject:
   - component: {fileID: 2471752096493310813}
   - component: {fileID: 1350966070303572621}
   - component: {fileID: 1914867846073663859}
+  - component: {fileID: 2471752096493310814}
   m_Layer: 0
   m_Name: VW_Touran2007_BR_wheel
   m_TagString: Untagged
@@ -638,6 +640,7 @@ GameObject:
   - component: {fileID: 2247629318531645437}
   - component: {fileID: 421384827917526219}
   - component: {fileID: 8701237067581699745}
+  - component: {fileID: 8701237067581699746}
   m_Layer: 0
   m_Name: VW_Touran2007_exterior
   m_TagString: Untagged
@@ -656,6 +659,7 @@ GameObject:
   - component: {fileID: 8544243626050915379}
   - component: {fileID: 3404241425635402737}
   - component: {fileID: 9053017263965354457}
+  - component: {fileID: 9053017263965354458}
   m_Layer: 0
   m_Name: VW_Touran2007_FR_wheel
   m_TagString: Untagged
@@ -671,7 +675,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1521477455017392397}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 601.8949, y: 1.33, z: 395.47592}
+  m_LocalPosition: {x: 601.8949, y: 3.12226, z: 395.47592}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -690,20 +694,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &2186091915179713464
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1521477455017392397}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!54 &2186091915179713465
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -731,6 +721,7 @@ GameObject:
   - component: {fileID: 8250771840358059770}
   - component: {fileID: 362241386360024917}
   - component: {fileID: 3779091594452349118}
+  - component: {fileID: 8250771840358059771}
   m_Layer: 0
   m_Name: VW_Touran2007_interior
   m_TagString: Untagged
@@ -791,6 +782,36 @@ Transform:
   m_Father: {fileID: 2186091915179713463}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!146 &2471752096493310814
+WheelCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963150709699240768}
+  m_Center: {x: 0, y: 0, z: 0.005}
+  m_Radius: 0.0036
+  m_SuspensionSpring:
+    spring: 35000
+    damper: 4500
+    targetPosition: 0.5
+  m_SuspensionDistance: 0.01
+  m_ForceAppPointDistance: 0
+  m_Mass: 10.03
+  m_WheelDampingRate: 0.25
+  m_ForwardFriction:
+    m_ExtremumSlip: 0.4
+    m_ExtremumValue: 1
+    m_AsymptoteSlip: 0.8
+    m_AsymptoteValue: 0.5
+    m_Stiffness: 1
+  m_SidewaysFriction:
+    m_ExtremumSlip: 0.2
+    m_ExtremumValue: 1
+    m_AsymptoteSlip: 0.5
+    m_AsymptoteValue: 0.75
+    m_Stiffness: 1
+  m_Enabled: 1
 --- !u!33 &2552924546170797164
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1047,6 +1068,7 @@ GameObject:
   - component: {fileID: 6640942393195132648}
   - component: {fileID: 301861033487546427}
   - component: {fileID: 4260283392185551762}
+  - component: {fileID: 6640942393195132649}
   m_Layer: 0
   m_Name: number_plate.001
   m_TagString: Untagged
@@ -1088,6 +1110,7 @@ GameObject:
   - component: {fileID: 3264052384565453309}
   - component: {fileID: 2944206307501930172}
   - component: {fileID: 4119570562845379284}
+  - component: {fileID: 5531547890805455908}
   m_Layer: 0
   m_Name: number_plate
   m_TagString: Untagged
@@ -1095,6 +1118,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &5531547890805455908
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5531547890805455907}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8792568404933805422, guid: 1ee8be5d6c5bfa04c97a31a6f65bc361, type: 3}
 --- !u!4 &5581174579587137424
 Transform:
   m_ObjectHideFlags: 0
@@ -1140,6 +1177,20 @@ Transform:
   m_Father: {fileID: 2186091915179713463}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &6640942393195132649
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4305155354403785730}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1298750001718373803, guid: 1ee8be5d6c5bfa04c97a31a6f65bc361, type: 3}
 --- !u!23 &6971927253835654357
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1186,6 +1237,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6971927253835654358
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212384019907236792}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 208503547295614527, guid: 1ee8be5d6c5bfa04c97a31a6f65bc361, type: 3}
 --- !u!1 &7355729554886780138
 GameObject:
   m_ObjectHideFlags: 0
@@ -1197,6 +1262,7 @@ GameObject:
   - component: {fileID: 5581174579587137424}
   - component: {fileID: 2698103446632749801}
   - component: {fileID: 996558744862188639}
+  - component: {fileID: 7355729554886780139}
   m_Layer: 0
   m_Name: VW_Touran2007_backlights
   m_TagString: Untagged
@@ -1204,6 +1270,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &7355729554886780139
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7355729554886780138}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2066257945507350229, guid: 1ee8be5d6c5bfa04c97a31a6f65bc361, type: 3}
 --- !u!1 &7524118394647815249
 GameObject:
   m_ObjectHideFlags: 0
@@ -1215,6 +1295,7 @@ GameObject:
   - component: {fileID: 4564677744635788146}
   - component: {fileID: 2282965136600193267}
   - component: {fileID: 757571260615935464}
+  - component: {fileID: 7524118394647815250}
   m_Layer: 0
   m_Name: VW_Touran2007_FL_wheel
   m_TagString: Untagged
@@ -1222,6 +1303,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!146 &7524118394647815250
+WheelCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7524118394647815249}
+  m_Center: {x: 0, y: 0, z: 0.005}
+  m_Radius: 0.0036
+  m_SuspensionSpring:
+    spring: 35000
+    damper: 4500
+    targetPosition: 0.5
+  m_SuspensionDistance: 0.01
+  m_ForceAppPointDistance: 0
+  m_Mass: 10.03
+  m_WheelDampingRate: 0.25
+  m_ForwardFriction:
+    m_ExtremumSlip: 0.4
+    m_ExtremumValue: 1
+    m_AsymptoteSlip: 0.8
+    m_AsymptoteValue: 0.5
+    m_Stiffness: 1
+  m_SidewaysFriction:
+    m_ExtremumSlip: 0.2
+    m_ExtremumValue: 1
+    m_AsymptoteSlip: 0.5
+    m_AsymptoteValue: 0.75
+    m_Stiffness: 1
+  m_Enabled: 1
 --- !u!4 &7738115866024675853
 Transform:
   m_ObjectHideFlags: 0
@@ -1252,6 +1363,20 @@ Transform:
   m_Father: {fileID: 2186091915179713463}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &8250771840358059771
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2231064848929919868}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4516351863222588726, guid: 1ee8be5d6c5bfa04c97a31a6f65bc361, type: 3}
 --- !u!23 &8278857354297969745
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1294,6 +1419,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8278857354297969746
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683530329239665484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6918178329810347825, guid: 1ee8be5d6c5bfa04c97a31a6f65bc361, type: 3}
 --- !u!1 &8437764416583366926
 GameObject:
   m_ObjectHideFlags: 0
@@ -1305,6 +1444,7 @@ GameObject:
   - component: {fileID: 7738115866024675853}
   - component: {fileID: 4925338174759484819}
   - component: {fileID: 8792318264068595125}
+  - component: {fileID: 8792318264068595126}
   m_Layer: 0
   m_Name: VW_Touran2007_side_left_blinker_glass
   m_TagString: Untagged
@@ -1375,6 +1515,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8701237067581699746
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974739057605571965}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1451465072802692255, guid: 1ee8be5d6c5bfa04c97a31a6f65bc361, type: 3}
 --- !u!23 &8792318264068595125
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1417,6 +1571,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8792318264068595126
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8437764416583366926}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2296499015245731448, guid: 1ee8be5d6c5bfa04c97a31a6f65bc361, type: 3}
 --- !u!1 &8802666176246659600
 GameObject:
   m_ObjectHideFlags: 0
@@ -1428,6 +1596,7 @@ GameObject:
   - component: {fileID: 4227165146853038995}
   - component: {fileID: 2552924546170797164}
   - component: {fileID: 3671566188116328660}
+  - component: {fileID: 8802666176246659601}
   m_Layer: 0
   m_Name: VW_Touran2007_BL_wheel
   m_TagString: Untagged
@@ -1435,6 +1604,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!146 &8802666176246659601
+WheelCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8802666176246659600}
+  m_Center: {x: 0, y: 0, z: 0.005}
+  m_Radius: 0.0036
+  m_SuspensionSpring:
+    spring: 35000
+    damper: 4500
+    targetPosition: 0.5
+  m_SuspensionDistance: 0.01
+  m_ForceAppPointDistance: 0
+  m_Mass: 10.03
+  m_WheelDampingRate: 0.25
+  m_ForwardFriction:
+    m_ExtremumSlip: 0.4
+    m_ExtremumValue: 1
+    m_AsymptoteSlip: 0.8
+    m_AsymptoteValue: 0.5
+    m_Stiffness: 1
+  m_SidewaysFriction:
+    m_ExtremumSlip: 0.2
+    m_ExtremumValue: 1
+    m_AsymptoteSlip: 0.5
+    m_AsymptoteValue: 0.75
+    m_Stiffness: 1
+  m_Enabled: 1
 --- !u!23 &9053017263965354457
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1479,3 +1678,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!146 &9053017263965354458
+WheelCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2184077721976531671}
+  m_Center: {x: 0, y: 0, z: 0.005}
+  m_Radius: 0.0036
+  m_SuspensionSpring:
+    spring: 35000
+    damper: 4500
+    targetPosition: 0.5
+  m_SuspensionDistance: 0.01
+  m_ForceAppPointDistance: 0
+  m_Mass: 10.03
+  m_WheelDampingRate: 0.25
+  m_ForwardFriction:
+    m_ExtremumSlip: 0.4
+    m_ExtremumValue: 1
+    m_AsymptoteSlip: 0.8
+    m_AsymptoteValue: 0.5
+    m_Stiffness: 1
+  m_SidewaysFriction:
+    m_ExtremumSlip: 0.2
+    m_ExtremumValue: 1
+    m_AsymptoteSlip: 0.5
+    m_AsymptoteValue: 0.75
+    m_Stiffness: 1
+  m_Enabled: 1
